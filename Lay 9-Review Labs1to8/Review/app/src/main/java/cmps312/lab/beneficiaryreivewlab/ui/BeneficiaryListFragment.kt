@@ -6,6 +6,9 @@ import androidx.fragment.app.Fragment
 <<<<<<< HEAD
 =======
 import androidx.fragment.app.activityViewModels
+<<<<<<< HEAD
+>>>>>>> parent of 8338920... completed everything before networking
+=======
 >>>>>>> parent of 8338920... completed everything before networking
 import androidx.recyclerview.widget.LinearLayoutManager
 import cmps312.lab.beneficiaryreivewlab.R
@@ -32,6 +35,9 @@ class BeneficiaryListFragment : Fragment(R.layout.fragment_beneficiary_list) {
 =======
 
         add
+<<<<<<< HEAD
+>>>>>>> parent of 8338920... completed everything before networking
+=======
 >>>>>>> parent of 8338920... completed everything before networking
     }
 

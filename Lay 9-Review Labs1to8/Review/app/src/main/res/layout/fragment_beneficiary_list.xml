@@ -20,5 +20,8 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/beneficiary_list_item"
         />
+<<<<<<< HEAD
+>>>>>>> parent of 8338920... completed everything before networking
+=======
 >>>>>>> parent of 8338920... completed everything before networking
 </androidx.constraintlayout.widget.ConstraintLayout>
