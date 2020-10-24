@@ -24,8 +24,6 @@ class BeneficiaryListFragment : Fragment(R.layout.fragment_beneficiary_list) {
         beneficiaryViewModel.beneficiaries.observe(viewLifecycleOwner){
             beneficiaryAdapter.beneficiaries = it
         }
-
-        add
     }
 
     fun deleteBeneficiaryListener(beneficiary: Beneficiary){
