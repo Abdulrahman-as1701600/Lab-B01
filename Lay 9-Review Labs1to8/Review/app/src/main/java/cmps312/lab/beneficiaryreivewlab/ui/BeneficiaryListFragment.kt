@@ -3,6 +3,10 @@ package cmps312.lab.beneficiaryreivewlab.ui
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+<<<<<<< HEAD
+=======
+import androidx.fragment.app.activityViewModels
+>>>>>>> parent of 8338920... completed everything before networking
 import androidx.recyclerview.widget.LinearLayoutManager
 import cmps312.lab.beneficiaryreivewlab.R
 import cmps312.lab.beneficiaryreivewlab.ui.adapter.BeneficiaryAdapter
@@ -24,6 +28,11 @@ class BeneficiaryListFragment : Fragment(R.layout.fragment_beneficiary_list) {
         beneficiaryViewModel.beneficiaries.observe(viewLifecycleOwner){
             beneficiaryAdapter.beneficiaries = it
         }
+<<<<<<< HEAD
+=======
+
+        add
+>>>>>>> parent of 8338920... completed everything before networking
     }
 
     fun deleteBeneficiaryListener(beneficiary: Beneficiary){
