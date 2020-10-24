@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import cmps312.lab.beneficiaryreivewlab.R
 import cmps312.lab.beneficiaryreivewlab.model.Beneficiary
@@ -30,9 +29,7 @@ class BeneficiaryListFragment : Fragment(R.layout.fragment_beneficiary_list) {
             beneficiaryAdapter.beneficiaries = it
         }
 
-        addBtn.setOnClickListener {
-            findNavController().navigate(R.id.toAddBeneficiaryFragment)
-        }
+        add
     }
 
     fun deleteBeneficiaryListener(beneficiary: Beneficiary){
